@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap');
+body {
+  font-family: "Helvatica", sans-serif;
+}
+h1 {
+  color: black;
+  font-family: "Helvatica", sans-serif;
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Lexend Tera', sans-serif;
+}
+nav ul {
+  background-color: red;
+  border-width: 2px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 6px 6px 5px -2px rgba(166,166,166,1);
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: PapayaWhip;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 2em;
+}
+p {
+	font-size; 1em;
+	text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+table {
+	text-align: center;
+}
+.ContainBox {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5px;
+}
+.ActivBox {
+  background-color: red;
+  text-align: center;
+  border-width: 2px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: white;
+  margin: 30px;
+  text-decoration: none;
+}
+.ActivBox h3 a {
+	text-decoration: none;
+	color: white;
+}
